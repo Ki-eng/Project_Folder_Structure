@@ -1,20 +1,20 @@
 # folder_structure
 
 lib/
-├── main.dart                 # The main entry point of the app
-├── screens/
-│   ├── aboutScreen.dart      # About Us screen implementation
-│   ├── guessCountry.dart     # Main screen with quiz functionality
-├── widgets/
-│   ├── customButton.dart     # Reusable button widget
-│   ├── customCard.dart       # Reusable card widget
-│   ├── scoreCard.dart        # Widget to display score and attempts
-├── models/
-│   ├── quiz.dart             # Logic for quiz functionality (e.g., score management)
+├── main.dart                 # The main entry point of the app <br>
+├── screens/<br>
+│   ├── aboutScreen.dart      # About Us screen implementation<br>
+│   ├── guessCountry.dart     # Main screen with quiz functionality<br>
+├── widgets/<br>
+│   ├── customButton.dart     # Reusable button widget<br>
+│   ├── customCard.dart       # Reusable card widget<br>
+│   ├── scoreCard.dart        # Widget to display score and attempts<br>
+├── models/<br>
+│   ├── quiz.dart             # Logic for quiz functionality (e.g., score management)<br>
 ├── data/
-│   ├── countries.dart        # List of countries and their capitals
+│   ├── countries.dart        # List of countries and their capitals<br>
 ├── utils/
-│   ├── utils.dart            # Helper methods (e.g., alerts for end of list)
+│   ├── utils.dart            # Helper methods (e.g., alerts for end of list)<br>
 
 # Benefits of Folder Structure
 
