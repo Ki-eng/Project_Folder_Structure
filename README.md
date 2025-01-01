@@ -3,8 +3,9 @@
 ## Explanation of Folders<br>
 
 ### constants/: <br>
-Contains app-wide constants like strings (strings.dart) for centralized management of text and other static data.<br>
-**core/:** Includes essential application logic and data, grouped into:<br>
+Contains app-wide constants like strings (appStrings.dart) for centralized management of text and other static data.<br>
+### core/: <br>
+Includes essential application logic and data, grouped into:<br>
 **data/:** Stores country and capital data (countries.dart).<br>
 **models/:** Houses logic and state management (e.g., quiz.dart).<br>
 ### ui/: <br>
