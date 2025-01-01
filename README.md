@@ -23,6 +23,7 @@ lib/
 │   ├── utils.dart            # Helper functions (e.g., alerts)
 
 
+
 # Benefits of Folder Structure
 
 Scalability: Easier to add new features or components without cluttering the project.
