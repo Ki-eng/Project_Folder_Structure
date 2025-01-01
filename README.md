@@ -1,20 +1,27 @@
 # folder_structure
 
 lib/
-├── main.dart                 # The main entry point of the app <br>
-├── screens/<br>
-│   ├── aboutScreen.dart      # About Us screen implementation<br>
-│   ├── guessCountry.dart     # Main screen with quiz functionality<br>
-├── widgets/<br>
-│   ├── customButton.dart     # Reusable button widget<br>
-│   ├── customCard.dart       # Reusable card widget<br>
-│   ├── scoreCard.dart        # Widget to display score and attempts<br>
-├── models/<br>
-│   ├── quiz.dart             # Logic for quiz functionality (e.g., score management)<br>
-├── data/
-│   ├── countries.dart        # List of countries and their capitals<br>
-├── utils/
-│   ├── utils.dart            # Helper methods (e.g., alerts for end of list)<br>
+├── main.dart                 # Entry point of the application
+├── route.dart                # Route management for navigation
+├── constants/                # App-wide constants
+│   ├── strings.dart          # Strings used throughout the app
+├── core/                     # Core application logic and data
+│   ├── data/
+│   │   ├── countries.dart    # Country and capital data
+│   ├── models/
+│       ├── quiz.dart         # Logic for quiz functionality
+├── ui/                       # All UI-related components
+│   ├── screens/
+│   │   ├── aboutScreen.dart  # About Us screen implementation
+│   │   ├── guessCountry.dart # Main screen for quiz functionality
+│   ├── widgets/
+│       ├── customButton.dart # Reusable button widget
+│       ├── customCard.dart   # Reusable card widget
+│       ├── scoreCard.dart    # Widget for score and attempts
+├── utils/                    # Utility functions and theming
+│   ├── theme.dart            # App-wide theming
+│   ├── utils.dart            # Helper functions (e.g., alerts)
+
 
 # Benefits of Folder Structure
 
