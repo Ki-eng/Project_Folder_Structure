@@ -11,7 +11,8 @@ Contains app-wide constants like strings (strings.dart) for centralized manageme
 Consolidates all UI-related files:<br>
 **screens/:** App pages such as aboutScreen.dart and guessCountry.dart.<br>
 **widgets/:** Reusable UI components like custom buttons and cards.<br>
-### utils/: Provides helper methods (utils.dart) and theming (theme.dart) for consistent styling across the app.<br>
+### utils/:<br> 
+Provides helper methods (utils.dart) and theming (theme.dart) for consistent styling across the app.<br>
 route.dart: Manages navigation logic, ensuring clean routing between app screens.<br>
 
 
