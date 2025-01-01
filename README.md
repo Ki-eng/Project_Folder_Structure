@@ -1,16 +1,23 @@
 # folder_structure
 
-A new Flutter project.
+lib/
+├── main.dart                 # The main entry point of the app
+├── screens/
+│   ├── aboutScreen.dart      # About Us screen implementation
+│   ├── guessCountry.dart     # Main screen with quiz functionality
+├── widgets/
+│   ├── customButton.dart     # Reusable button widget
+│   ├── customCard.dart       # Reusable card widget
+│   ├── scoreCard.dart        # Widget to display score and attempts
+├── models/
+│   ├── quiz.dart             # Logic for quiz functionality (e.g., score management)
+├── data/
+│   ├── countries.dart        # List of countries and their capitals
+├── utils/
+│   ├── utils.dart            # Helper methods (e.g., alerts for end of list)
 
-## Getting Started
+# Benefits of Folder Structure
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Scalability: Easier to add new features or components without cluttering the project.
+Maintainability: Improved readability and ease of debugging with a modular structure.
+Reusability: Centralized components in the widgets/ folder reduce redundant code.
